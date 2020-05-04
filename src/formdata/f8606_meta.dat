@@ -2,8 +2,8 @@ Page 1
 
  TxtColor: 0 0 0.6
 
- CoordReference:  0, 5  0, 0
-                  720, 725 720, 720	110-dpi
+ CoordReference:  5, 5  0, 0
+                  725, 725 720, 720	110-dpi
 
  Name:            36  684 ! id=1-0000
  SocSec#:         461 684 ! id=1-0001
