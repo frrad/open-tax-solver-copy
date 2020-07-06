@@ -1316,7 +1316,7 @@ int main( int argc, char *argv[] )
    strcpy( YourName, Your1stName );
    strcat( YourName, " " );
    strcat( YourName, YourLastName );
-   YourName[15] = '\0';		/* Limit name to 15 characters. */
+   YourName[19] = '\0';		/* Limit name to 19 characters. */
    fprintf(outfile,"YourName: %s\n", YourName );
 
    if (strcmp( YourLastName, SpouseLastName ) == 0)
