@@ -1,7 +1,7 @@
 Open Tax Solver - Package
 --------------------------
 
-March 14, 2020 v17.07 - For 2019 tax-year.
+July 2, 2020 v17.08 - For 2019 tax-year.
 
 See project homepage:	http://opentaxsolver.sourceforge.net/
 
@@ -27,12 +27,15 @@ Also contains an Automatic PDF Form-Fillout function:
 	- You can edit your forms with Libre-Office.
 
 -----------------------------------------------------------
---- This package contains executables for 64-bit Linux. ---
+--- This package contains executables for RPLCSTRNG_01 ---
 -----------------------------------------------------------
-  (Compiled on glibc 2.12)  (Check yours by 'ldd --version')
-  ( GNU/Linux 2.6.18 -- You should be OK on same or newer systems. )
+  RPLCSTRNG_02
 
 History:
+    * v17.08 (6/2/2020) - On Fed-1040 Sched-A, added checkbox 5a and line 8d.
+	- On VA State form, fixed bar-code at top of form.
+	- On MA State form, corrected first two line labels in text file.
+	- On NJ State form, added checks for negative taxes, and property tax deduction elegibility.
     * v17.07 (3/14/2020) - Minor improvement to Fed-1040 labeling of lines 11b and 13b.
 	- North Carolina fix for Std-Deductions check-box on printed form.
     * v17.06 (2/27/2020) - Fixes to Fed-1040 Schedule D Tax Worksheet calculations.
@@ -58,9 +61,9 @@ History:
     * v17.00 (1/31/2020) - Initial Release for Tax-Year 2019.
 
 Usage:
- Invoke by running:   ./Run_taxsolve_GUI
+ RPLCSTRNG_03
   (Located in the top directory.)
- 
+ RPLCSTRNG_04
  For Auto-Fillout of PDF Forms, click the "Print" button, and select
   "Automatically Fill-out PDF Tax-Form", then click "Print".
  You can set your preferred PDF viewer by the (Set PDF Viewer) button,
